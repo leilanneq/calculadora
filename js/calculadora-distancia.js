@@ -1,28 +1,29 @@
-const botao = $('[data-distancia-botao]')
-const input = $('[data-distancia-input]')
+const inputKm = $('[data-distancia-km]')
+const inputMilhas = $('[data-distancia-milhas]')
+
+$(document).ready(function(){
+    conversor()
+})
 
 function conversor(evento) {
-    evento.preventDefault()
+    
+    inputKm.on("input", function(){//km para milhas
+        
+        let distancia = inputKm.val()
 
-    let distancia = input.val()
+        let kmDigitado = distancia / 1.6
+        let milhas = parseFloat(kmDigitado.toFixed(2))
+        $('[data-distancia-milhas]').val(milhas)
+        
+    })
 
-    if ($("#km").is(":checked")) {
+    inputMilhas.on("input", function(){//milhas para km
 
-        let milhasDigitado = distancia / 1.6
-        let milhas = parseFloat(milhasDigitado.toFixed(2))
-        $('[data-distancia-valor]').text(milhas)
-        $('[data-distancia-medida]').text("milhas")
+        let distancia = inputMilhas.val()
 
-    } else if (($("#milhas").is(":checked")))  {
-
-        let kmDigitado = distancia * 1.6
-        let km = parseFloat(kmDigitado.toFixed(2))
-        $('[data-distancia-valor]').text(km)
-        $('[data-distancia-medida]').text("quilômetros")
-    }
-
-    $('[data-resultado-distancia]').addClass("distancia__resultado-on")
+        let milhasDigitado = distancia * 1.6
+        let km = parseFloat(milhasDigitado.toFixed(2))
+        $('[data-distancia-km]').val(km)
+    })
     
 }
-
-botao.click(conversor)

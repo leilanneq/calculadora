@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/fontawesome-free-5.15.3-web/css/all.css">
@@ -37,27 +38,20 @@
         <section class="distancia">
             <h2 class="distancia__titulo">Conversor de Km e Milhas</h2>
             <form action="" class="distancia__form">
-                <fieldset>
-                    <label for="" class="distancia__label">Distância</label>
-                    <input type="text" class="distancia__input" data-distancia-input>
-                    <div class="distancia__radio">
-                        <div class="distancia__radio-opcoes">
-                            <label for="km">Km</label>
-                            <input type="radio" name="distancia" id="km" value="km" checked>
-                        </div>
-                        <div class="distancia__radio-opcoes">
-                            <label for="milhas">Milhas</label>
-                            <input type="radio" name="distancia" id="milhas" value="milhas">
-                        </div>
-                    </div>
-                    <button class="distancia__botao" data-distancia-botao>Calcular</button>
-                </fieldset>
+            
+                <div class="distancia__div">
+                    <label for="" class="distancia__label">KM</label>
+                    <input type="text" class="distancia__input" value="0" data-distancia-km>
+                </div>
+                <span class="material-icons">drag_handle</span>
+                <div class="distancia__div">
+                    <label for="" class="distancia__label">Milhas</label>
+                    <input type="text" class="distancia__input" value="0" data-distancia-milhas>
+            
+                </div>
+            
             </form>
-            <div class="distancia__resultado-off" data-resultado-distancia>
 
-                <h1 class="distancia__titulo"> <span data-distancia-valor>0</span> <span data-distancia-medida>medida</span> </h1>
-
-            </div>
         </section>
        
     </main>
