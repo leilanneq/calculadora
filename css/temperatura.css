@@ -1,0 +1,110 @@
+.temperatura {
+    background-color: var(--bege-claro);
+    border: 1px solid var(--cinza-claro);
+    box-sizing: border-box;
+    border-radius: 9px;
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em 2em;
+    width: 45%;
+}
+
+.temperatura__titulo {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+}
+
+.temperatura__form {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+
+    padding: 1em;
+
+    display: flex;
+    justify-content: center;
+}
+
+.temperatura__label {
+    display: block;
+
+    font-size: 30px;
+
+    margin-top: 14px;
+}
+.temperatura__div{
+    margin:5px;
+    padding: 5px;
+}
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2.5em;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+.temperatura__input {
+    border: 1px solid var(--cinza-escuro);
+    width: 6em;
+    height: 1.7em;
+
+    text-align: center;
+
+    margin-top: 5px;
+}
+.temperatura__radio {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.temperatura__radio-opcoes {
+    padding: 0.5em;
+}
+.temperatura__botao {
+
+    background-color: var(--cinza-claro);
+    border-radius: 5px;
+    width: 6em;
+    padding: 0.3em;
+    margin-top: 1em;
+    
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--bege);
+
+    display: block;
+}
+
+.temperatura__resultado-off {
+    display: none;
+}
+
+.temperatura__resultado-on {
+    display: revert;
+}

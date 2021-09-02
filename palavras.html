@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de tudo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/palavras.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__conteudo">
+            <h1 class="cabecalho__titulo">Calculadora de tudo</h1>
+            <input type="checkbox" name="" id="botao_menu">
+            <label for="botao_menu">&#9776;</label>
+            <nav class="cabecalho__menu">
+                <a href="./index.html" class="cabecalho__menu-link">Gasolina</a>
+                <a href="" class="cabecalho__menu-link">Palavras</a>
+                <a href="./gravidez.html" class="cabecalho__menu-link">Gravidez</a>
+                <a href="./distancia.html" class="cabecalho__menu-link">Distância</a>
+                <!-- <a href="" class="cabecalho__menu-link">Dias</a> -->
+                <a href="./peso.html" class="cabecalho__menu-link">Peso</a>
+                <!-- <a href="" class="cabecalho__menu-link">Altura</a>
+                <a href="" class="cabecalho__menu-link">Temperatura</a> -->
+            </nav>
+        </div>
+    </header>
+    
+    <main class="container">
+        <section class="palavras">
+            <h2 class="palavras__titulo">CONTADOR DE PALAVRAS</h2>
+            <textarea name="" id="" cols="30" rows="10" class="palavras__input" data-texto></textarea>
+            <ul class="palavras__lista">
+                <li class="palavras__item"><span class="palavras__cont" data-cont-carac>0</span> CARACTERES</li>
+                <li class="palavras__item"><span class="palavras__cont" data-cont-palavra>0</span> PALAVRAS</li>
+            </ul>
+            <ul class="palavras__lista-redes">
+                <li class="palavras__item-redes"><i class="fab fa-twitter-square"></i><span data-twitter> 280</span> Twitter</li>
+                <li class="palavras__item-redes"><i class="fab fa-instagram-square"></i><span data-instagram> 2200</span> Instagram</li>
+                <li class="palavras__item-redes"><i class="fab fa-facebook-square"></i><span data-facebook> 63206</span> Facebook</li>
+                <li class="palavras__item-redes"><i class="fab fa-whatsapp-square"></i><span data-whatsapp> 500</span> Whatsapp</li>
+                <li class="palavras__item-redes"><i class="fab fa-pinterest-square"></i><span data-pinterest> 500</span> Pinterest</li>
+                <li class="palavras__item-redes"><i class="fas fa-sms"></i><span data-sms> 160</span> SMS</li>
+            </ul>
+            <button class="palavras__botao" data-botao-limpar>LIMPAR</button>
+        </section>
+        
+    </main>
+     <script src="/js/jquery.js"></script>
+     <script src="/js/calculadora-jquery.js"></script>
+   
+    </body>
+</html>

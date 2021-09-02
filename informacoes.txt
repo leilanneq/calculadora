@@ -1,0 +1,49 @@
+CORES
+----------------
+
+
+https://www.colourlovers.com/web/trends/websites/7610/grantmx_%7C_designs
+---------
+FONTES
+---------
+Título principal -
+Títulos menores - Source Sans Pro
+
+------------
+CLASSES CSS
+------------
+
+.cabecalho
+.cabecalho__conteudo
+.cabecalho__titulo
+.cabecalho__menu
+.cabecalho__menu-link
+
+.gasolina
+.gasolina__container
+.gasolina__form
+.gasolina__titulo
+.gasolina__input
+.gasolina__botao
+.gasolina__resultado
+div.gasolina__container>h2.gasolina__titulo+form.gasolina__form>(label.gasolina__label+input.gasolina__input)*2+button:submit.gasolina__botao
+
+
+.palavras
+.palavras__titulo
+.palavras__input (data-palavras)
+.palavras__lista
+.palavras__item (data-cont-carac) (data-cont-palavra)
+.palavras__cont
+.palavras__lista-redes
+.palavras__item-redes
+.palavras__botao
+
+
+.peso
+.peso__form
+.peso__form-input
+.peso__form-selection
+.peso__form-option
+.peso__form-botao
+

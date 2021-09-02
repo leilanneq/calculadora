@@ -1,0 +1,125 @@
+.peso {
+    background-color: var(--bege-claro);
+    border: 1px solid var(--cinza-claro);
+    box-sizing: border-box;
+    border-radius: 9px;
+    margin: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em 2em;
+    width: 50%;
+
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.peso__titulo {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+
+    margin: inherit;
+}
+
+fieldset {
+    margin-left: 26%;
+    padding: 0.5em;
+}
+.peso__form-input {
+    border: 1px solid var(--cinza-escuro);
+    width: 25%;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+
+.peso__form-select {
+    width: 25%;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+
+.peso__form-botao {
+    background-color: var(--cinza-claro);
+    border-radius: 5px;
+    width: 5em;
+    padding: 0.1em;
+    margin-top: 1em;
+    
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--bege);
+}
+
+.resultado__titulo {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+
+    margin: inherit;
+}
+.resultado {
+    display: none;
+}
+.resultado-exibir {
+    display: revert;
+    margin-top: 2em;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+thead { /*está escondida*/
+    font-weight: 600;
+    display: none;
+}
+tr, th {
+    border-bottom: 1px solid var(--cinza-claro);
+    padding: 1em;
+}
+/* intercalar cor nas linhas */
+tr:nth-child(even) { 
+    background-color: var(--bege);
+}
+
+.peso__form-botao-limpar {
+    background-color: var(--cinza-claro);
+    border-radius: 5px;
+    width: 5em;
+    padding: 0.1em;
+    margin-top: 1em;
+    margin-left: 44%;
+    
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--bege);
+}
+
+@media(max-width: 768px) {
+
+    .peso {
+        width: auto;
+        margin: 0.75em;
+    }
+
+    fieldset {
+        display: flex;
+        flex-direction: column;        
+    }
+
+    .peso__form-input {
+        width: 67%;
+    }
+
+    .peso__form-select {
+        width: 70%;
+        margin-top: 10px;
+    }
+
+    .peso__form-botao-limpar{
+        margin-left: 30%;
+    }
+}

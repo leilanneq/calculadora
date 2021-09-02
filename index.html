@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de tudo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/gasolina.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__conteudo">
+            <h1 class="cabecalho__titulo">Calculadora de tudo</h1>
+            <input type="checkbox" name="" id="botao_menu">
+            <label for="botao_menu">&#9776;</label>
+            <nav class="cabecalho__menu">
+                <a href="" class="cabecalho__menu-link">Gasolina</a>
+                <a href="./palavras.html" class="cabecalho__menu-link">Palavras</a>
+                <a href="./gravidez.html" class="cabecalho__menu-link">Gravidez</a>
+                <!-- <a href="" class="cabecalho__menu-link">Dias</a> -->
+                <a href="./peso.html" class="cabecalho__menu-link">Peso</a>
+                <!-- <a href="" class="cabecalho__menu-link">Altura</a> -->
+                <!-- <a href="" class="cabecalho__menu-link">Temperatura</a> -->
+            </nav>
+        </div>
+    </header>
+    
+    <main class="container">
+        <section class="gasolina">
+            <div class="gasolina__container">
+                <h2 class="gasolina__titulo">Gasolina ou Etanol?</h2>
+                <form action="" class="gasolina__form">
+                   <fieldset>
+                        <label for="gasolina" class="gasolina__label">Gasolina</label>
+                        <input type="text" class="gasolina__input" name="gasolina" data-input-gasolina required>
+                        
+                        <label for="etanol" class="gasolina__label">Etanol</label>
+                        <input type="text" class="gasolina__input" required="required" name="etanol" data-input-etanol id="etanol">
+                        <button type="submit" class="gasolina__botao" data-botao-etanol>Calcular</button>
+                     </fieldset>
+                  </form>
+                  <div class="gasolina__resultado" data-resultado-etanol>
+                  </div>
+            </div>
+
+            <div class="gasolina__container">
+               <h2 class="gasolina__titulo">Quantos litros?</h2>
+               <form action="" class="gasolina__form">
+                  <fieldset>
+                     <label for="gasolina-valor" class="gasolina__label">Valor do litro da gasolina</label>
+                     <input type="text" class="gasolina__input" required="required" name="gasolina-valor" data-input-valor-litro>
+                     
+                     <label for="" class="gasolina__label">Total abstecido</label>
+                     <input type="text" class="gasolina__input" data-input-total-valor-abastecido>
+                     <button type="submit" class="gasolina__botao" data-botao-litros>Calcular</button>
+                  </fieldset>
+               </form>
+               <div class="gasolina__resultado" data-resultado-litros>
+               </div>
+            </div>
+            
+            <div class="gasolina__container">
+               <h2 class="gasolina__titulo">Vou economizar quanto?</h2>
+               <form action="" class="gasolina__form">
+                  <fieldset>
+                     <label for="gasolina-barata" class="gasolina__label">Gasolina barata:</label>
+                     <input type="text" class="gasolina__input" required="required" name="gasolina-barata" data-input-gasolina-barata>
+                     
+                     <label for="gasolina-cara" class="gasolina__label">Gasolina cara:</label>
+                     <input type="text" class="gasolina__input" required="required" name="gasolina-cara" data-input-gasolina-cara>
+                     
+                     <label for="valor-abastecido" class="gasolina__label" >Valor abastecido:</label>
+                     <input type="text" class="gasolina__input" required="required" name="valor-abastecido" data-input-valor-abastecer>
+                     <button type="submit" class="gasolina__botao" data-botao-economia>Calcular</button>
+                  </fieldset>
+               </form>
+               <div class="gasolina__resultado" data-resultado-economia>
+               </div>
+            </div>
+        </section>
+        
+    </main>
+     <script src="/js/jquery.js"></script>
+     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+     <script src="/js/jquery.maskMoney.min.js"></script>
+     <script src="/js/calculadora.js"></script>
+     <script src="/js/calculadora-jquery.js"></script>
+   
+    </body>
+</html>

@@ -1,0 +1,20 @@
+:root {
+    --preto: #212121;
+    --cinza-escuro: #333333;
+    --cinza-claro: #666666;
+    --branco: #FFFFFF;
+    --bege: #F9F5EA;
+    --bege-claro: #FBFBF3;
+    --verde-claro: #B9D2CC;
+}
+
+/* .container {
+    display: flex;
+} */
+
+/* @media(max-width: 768px) {
+    
+    .container {
+        display: flex;
+    }
+} */

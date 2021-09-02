@@ -1,0 +1,70 @@
+STORIE 1
+
+Olá amigos, vcs já pararam pra pensar em quantas vezes já usaram algo parecido com isso aqui?
+
+
+Procedimentos comuns para entrar em um edifício comercial/ residencial/ academia/ faculdade e sei lá mais onde:
+
+Entregar documento, registrar digital e muitas vezes tiram até uma foto nossa.
+
+Qual será o problema de um desconhecido colocar tudo o que possa me identificar em um sistema que eu nem sei qual é só para eu poder entrar no consultório do dentista?
+
+Meus amigos, são muitos os problemas. E essa é a hora que eu vou criar aquela paranóia digital na cabeça de vcs. 
+
+--------------
+STORIE 2
+--------------
+1º ponto:
+A nossa impressão digital é um dado MUITO sensível que a gente possui, ele é único e nos identifica rapidamente. Quem nunca viu em um filme (ou na vida real) um criminoso sendo encontrado facilmente por ter deixado as digitais como rastro na cena de um crime? Então, só vai ter você com aquela digital e ela é eterna.
+
+2º ponto: Atualmente a coisa mais valiosa que existe no mundo são os dados. Todo mundo quer saber de dados, de comprar da dados, de vender dados, de analisar dados. Então, dificilmente uma empresa que desenvolve sistemas para cadastro de pessoas vai ignorar totalmente os dados que serão colocados dentro deles.
+
+Até tudo bem? Não.
+--------------
+STORIE 3
+--------------
+
+Provavelmente os lugares que fazem esse tipo de cadastro adquiriram um sistema pronto de alguma empresa. Provavelmente esse sistema é online e os dados que a portaria cadastra ficam salvos em algum lugar. Provavelmente esse lugar é o servidor da empresa que vendeu o sistema. 
+Mesmo que essa seja uma empresa boazinha e não faça nada com essas informações, ela está suscetível a sofrer um ataque e ter os dados vazados. 
+
+E ai o que a acontece? Pessoas criminosas terão acesso a todos os seus dados e MAIS a sua digital.
+
+--------------
+STORIE 4
+--------------
+
+Existe uma forma muito simples de um criminoso trabalhar com isso: dedos de silicone.
+Agora para e pensa no que um criminoso poderia fazer por aí um dedo seu (hahaha eu ri)
+
+Vamos supor que nesse cadastro, além da sua digital, tenha o seu endereço. E vamos supor que seja a sua digital que libere a sua entrada no prédio onde vc mora. Pronto. Vai ser muito fácil para essa pessoa entrar na sua casa.
+
+Pode parecer que eu tô exagerando, mas vcs lembram dessa notícia aqui? 
+
+Então, foi em 2013. Imagina o que o povo consegue fazer hoje.
+
+Agora vamos mais longe, para um roteiro de uma série policial: imagina alguém colocando sua impressão digital em uma cena de crime (Netflix, me contrata). Não entendo de perícia de crimes, mas certamente uma grande dor de cabeça vc ia ter.
+
+--------------
+STORIE 5
+--------------
+
+"O que eu faço agora com essa informação?"
+
+Infelizmente a gente não tem mtas opções por aí. Não é pra sair brigando com o porteiro pq ele tá te pedindo a digital, ele não tem nada a ver com isso. Mas a gente pode questionar a necessidade de um dado como esse para liberar coisas simples. Questionar o sindico do prédio se aquela é a melhor maneira de verificar a sua entrada, por exemplo.
+
+Meses atrás a Drogasil foi questionada por clientes por pedir a digital para dar desconto e voltou atrás na medida. Essa me parece ser a única maneira de tentar ir contra isso.
+
+E também se vc for responsável por colocar esse tipo de sistema em algum estabelecimento, evitar escolher os que usem dados biométricos. Usa uma senha, o CPF, tem várias maneiras de identificar pessoas sem ser pela digital.
+
+--------------
+STORIE 6
+--------------
+
+Eu não tô aqui tentando criar essa paranóia pra deixar todo mundo doido e com medo hahaha é só pra alertar os perigos que a gente corre em situações tão corriqueiras do dia-a-dia.
+
+Se um dia vc ver alguém questionar esse tipo de coisa, já sabe que não é frescura da pessoa :p
+
+
+
+Minha intenção ao explicar essas coisas é fazer com mais pessoas tenham noção do perigo que a gente corre ao expor esses dados. E para caso algum dia alguém faça esse tipo de questionamento, vc não pense que é frescura da pessoa.
+

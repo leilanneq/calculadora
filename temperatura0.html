@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de tudo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/temperatura.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__conteudo">
+            <h1 class="cabecalho__titulo">Calculadora de tudo</h1>
+            <input type="checkbox" name="" id="botao_menu">
+            <label for="botao_menu">&#9776;</label>
+            <nav class="cabecalho__menu">
+                <a href="./index.html" class="cabecalho__menu-link">Gasolina</a>
+                <a href="./palavras.html" class="cabecalho__menu-link">Palavras</a>
+                <a href="./gravidez.html" class="cabecalho__menu-link">Gravidez</a>
+                <a href="./peso.html" class="cabecalho__menu-link">Peso</a>
+                <a href="./temperatura.html" class="cabecalho__menu-link">Distância</a>
+                <!-- <a href="" class="cabecalho__menu-link">Dias</a>
+                <a href="" class="cabecalho__menu-link">Altura</a> -->
+                <a href="./temperatura.html" class="cabecalho__menu-link">Temperatura</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <section class="temperatura">
+            <h2 class="temperatura__titulo">Conversor de temperatura</h2>
+            <form action="" class="temperatura__form">
+                <fieldset>
+                    <label for="" class="temperatura__label">Temperatura:</label>
+                    <input type="text" class="temperatura__input" data-temperatura-input>
+                    <div class="temperatura__radio">
+                        <div class="temperatura__radio-opcoes">
+                            <input type="radio" name="temperatura" id="celsius" value="celsius" checked>
+                            <label for="km">°C <br> (celsius)</label>
+                        </div>
+                        <div class="temperatura__radio-opcoes">
+                            <input type="radio" name="temperatura" id="fahrenheit" value="fahrenheit">
+                            <label for="milhas">°F <br> (fahrenheit) </label>
+                        </div>
+                    </div>
+                    <input type="text" value="0" data-temperatura-teste>
+                    <button class="temperatura__botao" data-temperatura-botao>Calcular</button>
+                </fieldset>
+            </form>
+            <div class="temperatura__resultado-off" data-resultado-temperatura>
+
+                <h1 class="temperatura__titulo"> <span data-temperatura-valor>0</span> <span data-temperatura-medida>temperatura</span> </h1>
+
+            </div>
+        </section>
+       
+    </main>
+    <script src="/js/jquery.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+    <script src="/js/jquery.maskMoney.min.js"></script>
+    <script src="/js/calculadora-temperatura0.js"></script>
+</body>
+</html>
