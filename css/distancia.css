@@ -75,6 +75,7 @@
     font-feature-settings: 'liga';
 
     margin-top: auto;
+
     
   }
 .distancia__radio {
@@ -107,4 +108,10 @@
 
 .distancia__resultado-on {
     display: revert;
+}
+
+@media (max-width: 768px) {
+    .distancia {
+        width: auto;
+    }
 }

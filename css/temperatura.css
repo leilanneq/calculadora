@@ -108,3 +108,9 @@
 .temperatura__resultado-on {
     display: revert;
 }
+
+@media (max-width: 768px) {
+    .temperatura {
+        width: auto;
+    }
+}

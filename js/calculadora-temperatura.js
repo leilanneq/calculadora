@@ -27,7 +27,3 @@ function conversor(evento) {
     })
     
 }
-
-
-
-//botao.click(conversor)

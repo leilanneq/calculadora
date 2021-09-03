@@ -69,3 +69,9 @@
 .gravidez__resultado-in {
     display: revert;
 }
+
+@media (max-width: 768px) {
+    .gravidez {
+        width: auto;
+    }
+}
